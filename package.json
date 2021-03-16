@@ -2,6 +2,8 @@
   "name": "token-swapper",
   "version": "1.0.0",
   "description": "Uniswap token swapper",
+  "author": "Rohit Solia",
+  "repository": "https://github.com/rokso/token-swapper.git",
   "main": "index.js",
   "license": "MIT",
   "scripts": {},
@@ -11,6 +13,7 @@
     "bip39": "^3.0.3",
     "bn": "^1.0.5",
     "dotenv": "^8.2.0",
+    "node-fetch": "2.6.1",
     "p-series": "^2.1.0",
     "web3": "^1.3.4"
   },
