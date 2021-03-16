@@ -1,0 +1,56 @@
+{
+  "extends": ["standard"],
+  "overrides": [
+    {
+      "files": ["index.js"],
+      "env": {
+        "browser": false,
+        "node": true
+      }
+    },
+    {
+      "files": ["src/*.js*"],
+      "env": {
+        "browser": false,
+        "node": true
+      }
+    }
+  ],
+  "root": true,
+  "rules": {
+    "arrow-body-style": ["warn", "never"],
+    "arrow-parens": ["warn", "as-needed"],
+    "complexity": ["warn", 10],
+    "consistent-return": "error",
+    "max-len": ["warn", { "code": 100, "ignoreComments": false, "tabWidth": 2 }],
+    "max-params": ["warn", 4],
+    "no-else-return": "error",
+    "no-multi-assign": "error",
+    "no-param-reassign": "error",
+    "no-shadow": [
+      "error",
+      { "allow": ["err"], "builtinGlobals": true, "hoist": "functions" }
+    ],
+    "no-unused-vars": [
+      "error",
+      { "args": "after-used", "ignoreRestSiblings": true, "vars": "all" }
+    ],
+    "no-use-before-define": [
+      "error",
+      { "classes": true, "functions": true, "variables": true }
+    ],
+    "no-useless-concat": "error",
+    "no-var": "error",
+    "prefer-template":"error",
+    "promise/catch-or-return": [
+      "error",
+      { "allowFinally": true, "allowThen": true }
+    ],
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArrow": "always"
+  }],
+    "jsdoc/require-jsdoc": "off"
+  }
+}
