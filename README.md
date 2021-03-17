@@ -31,7 +31,7 @@ cd token-swapper
 touch .env
 ```
 
-3. Add following properties in `.env` file
+4. Add following properties in `.env` file
 ```bash
 NODE_URL="http://localhost:8545"
 MNEMONIC="your mnemonic"
@@ -39,9 +39,13 @@ MNEMONIC="your mnemonic"
 > If you want to use remote node, you can provide that URL above.
 > Use same mnemonic here which you use for ganache mainnet fork.
 
-4. cd in `token-swapper` and run below command
+5. cd in `token-swapper` and run below command
 ```bash
 node index.js UNI 1000000000000000000
 or
 node index.js 0x1f9840a85d5af5bf1d1762f925bdaddc4201f984 1000000000000000000
+```
+6. Command Syntex
+```bash
+node index.js addressOfTokenYouWant ethAmountYouWishToSwap
 ```
