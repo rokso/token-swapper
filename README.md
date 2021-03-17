@@ -21,9 +21,9 @@ git clone https://github.com/rokso/token-swapper.git
 2. Start mainnet fork using below command
 ```bash
 npm i -g ganache-cli
-ganache-cli -i 1 --fork "node url -e "eth amount" -m "your mnemonic"
+ganache-cli -i 1 --fork "node url" -e "eth amount" -m "your mnemonic"
 ```
-> If you want to see balance in Metamask via mnemonic, make sure you use Metamask mnemonic in above command.
+> If you want to see balance in Metamask, make sure you use Metamask mnemonic in above command.
 
 3. cd into `token-swapper` and create `.env` file
 ```bash
