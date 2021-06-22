@@ -1,4 +1,4 @@
-# Uniswap Token Swapper
+# Uniswap V2 Token Swapper
 > This is still work in progress, use at your own risk. You may lose fund.
 
 ## Motivation
